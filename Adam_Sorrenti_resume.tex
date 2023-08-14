@@ -95,7 +95,7 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://sorrenti.dev/}{\Large Adam Sorrenti}} & Email : \href{mailto:adamsorrenti8@hotmail.com}{adamsorrenti8@hotmail.com}\\
+  \textbf{\href{https://sorrenti.dev/}{\Large Adam Sorrenti}} & Email : \href{mailto:adamsorrenti8@gmail.com}{adamsorrenti8@gmail.com}\\
   \href{https://sorrenti.dev/}{https://sorrenti.dev/} & Mobile : \href{tel:+16475258773}{+1-647-525-8773} \\
 \end{tabular*}
 
@@ -105,12 +105,14 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Toronto Metropolitan University \small(formerly Ryerson University)}{Toronto, ON}
-      {Bachelor of Science (Hons.) in Computer Science;  GPA: 3.97/4.33}{Sept. 2018 -- Present}
+      {Bachelor of Science (Hons.) in Computer Science;  GPA: 4.01/4.33}{Sept 2018 -- Apr 2023}
       \resumeItemListStart
+          \resumeItem{Michel Jr Julien Award}
+	      {\$5,000 award for academic excellence, community/research involvement, and my equity-deserving pursuit of a degree in a Computer Science Program.}
 	      \resumeItem{Department of Computer Science Award}
-	      {Top marks in Computer Science I \& II (CPS109 \& CPS209).}
+	      {\$500 award for top marks in Computer Science I \& II.}
 	      \resumeItem{Google Developer Club Technical Lead}
-	      {Ran programming workshops teaching C/C++, Python, and Data Structures with global out-reach.} %GDC is a network of university based groups for students interested in Google developer technologies.
+	      {Ran programming workshops teaching C/C++, Python, and Data Structures with global outreach.} %GDC is a network of university based groups for students interested in Google developer technologies.
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -119,18 +121,30 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
+	\resumeSubheading
+	{Maternal Fetal Imaging Lab}{Toronto, ON}
+	{Machine Learning Researcher}{Sept 2022 - Present}
+	\resumeItemListStart
+	\resumeItem{Fetal Brain Segmentation}
+	{Created a CNN-based machine learning pipeline using a Unet model with a pre-trained ImageNet encoder for multi-class semantic segmentation of Fetal brain MRIs.}
+	\resumeItem{Data-limited Learning}
+	{Reviewed research literature regarding data-limited learning in medical imaging such as techniques for data augmentation, and synthetic data generation using variational autoencoders.}
+	\resumeItem{Pre-processing Pipeline}
+	{Developed and documented a data pre-processing pipeline in accordance with the Medical Segmentation Decathlon standard.}
+	\resumeItemListEnd
+	
     \resumeSubheading
       {IBM}{Markham, ON}
-      {Back-end Developer Intern}{May 2021 - Present}
+      {Back-end Developer Intern}{May 2021 - Aug 2022}
       \resumeItemListStart
         \resumeItem{TeamInsight}
           {Developed and maintained an internal headcount tool using DB2, Expressjs, Reactjs, and Nodejs.}
         \resumeItem{DevOps}
-          {Initiated efforts towards database version control of DDLs using DB2 extraction tooling and git.}
+          {Proposed and implemented database version control of DDLs using DB2 extraction tooling and git.}
         \resumeItem{Analytics}
-          {Configured an Ngnix server to log REST API endpoint response times as an objective measure of back-end performance.}
+          {Configured an Ngnix server to log REST API endpoint response times as an objective measure of back-end performance. This initiative helped identify +4 hrs/wk of inefficient back-end compute.}
       	\resumeItem{Continuous Integration}
-     	  {Expanded automation within the teams Continuous Integration pipeline using Jenkins.}
+     	  {Expanded automation within the team's Continuous Integration pipeline using Travis.}
       \resumeItemListEnd
       \resumeSubSubheading
 		{CAS Research Assistant}{Jan 2022 - Present}
@@ -138,7 +152,7 @@
 		\resumeItem{Natural Language Processing}
 		{Explored automated Apache log parsing using recurrent-neural-network-based machine translation models (i.e. \{GRU, LSTM, Transfomer\}-based models).}
 		\resumeItem{Digital Research Alliance of Canada (formerly Compute Canada)}
-		{Used Slurm Workload Manager to schedule ML training and evaluation jobs on a distributed supercomputer with NVIDIA T4 Turing GPUs.}
+		{Used Slurm Workload Manager to schedule ML training and evaluation jobs on a distributed supercomputer using NVIDIA A100 GPUs.}
 		\resumeItemListEnd
       \resumeSubSubheading
 		{CASCON x EVOKE Conference Volunteer}{Nov 2021}
@@ -146,8 +160,7 @@
 		\resumeItem{Speaker Support}
 		{Supported academic/industry speakers prior to presentations with A/V assistance as well as helped speakers navigate the virtual conference environment.}
 		\resumeItem{Academic Talks}
-		{Participated, as a viewer, in Cognitive/AI Systems talks engaging with Q\&A about machine learning implementations.}
-		
+		{Participated in Cognitive/AI Systems talks during Q\&A on machine learning implementations.}
 		\resumeItemListEnd
       
 % --------Multiple Positions Heading------------
@@ -159,26 +172,24 @@
 %     \resumeItemListEnd
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
-	\resumeSubheading
-	{Smart Nora}{Toronto, ON}
-	{Software Consultant}{Oct 2021 - Dec 2021}
-	\resumeItemListStart
-	\resumeItem{Project Delivery}
-	{Met with stakeholders to formalize software requirements specification and workflow. Provided technical documentation of code, algorithms, interfaces, and APIs.}
-	\resumeItem{DataOps}
-	{Setup, schema design and management of customer return labels generation using a third-party logistics REST API. Python was used on the application-level with continuous integration using cron jobs.}
-	\resumeItemListEnd
+% 	\resumeSubheading
+% 	{Smart Nora}{Toronto, ON}
+% 	{Software Consultant}{Oct 2021 - Dec 2021}
+% 	\resumeItemListStart
+% 	\resumeItem{Project Delivery}
+% 	{Met with stakeholders to formalize software specification and workflow. Provided technical documentation of code, algorithms, interfaces, and APIs.}
+% 	\resumeItem{DataOps}
+% 	{Designed and implemented a data management system for customer return labels generation using a third-party logistics REST API. Python was used on the application-level with continuous integration configure with cron jobs.}
+% 	\resumeItemListEnd
 	
     \resumeSubheading
       {Toronto Metropolitan University \small(formerly Ryerson University)}{Toronto, ON}
       {Mobile App Developer}{May 2020 - Apr 2021}
       \resumeItemListStart
         \resumeItem{Outreach}
-        {Participated on a development team of senior and graduate students to deliver and maintain a mobile app which served more than 2,000 students campus-wide.}
+        {Participated in a development team of senior and graduate students to deliver and maintain a mobile app that served more than 2,000 students campus-wide.}
         \resumeItem{Notifications}
-        {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, and grouping. Built an admin dashboard to run batch campaigns for marketing.}
-        \resumeItem{Design}
-        {Designed and implemented UI/UX features which correlated strongly to higher average user retention and engagement.}
+        {Built a service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, and grouping. Created an admin dashboard to run batch marketing campaigns.}
       \resumeItemListEnd
 %      \resumeSubSubheading
 %      {Test Centre Assistant}{Sept 2019 - Apr 2020}
@@ -196,7 +207,7 @@
 	\resumeSubHeadingListStart
 % 	\resumeSubItem{On Automatic Parsing of Log Records}
 % 	{Exploration of automated Apache log parsing using recurrent-neural-network-based machine translation models (i.e. \{GRU, LSTM, Transfomer\}-based models).}
-	\resumeSubItem{Sentimental Analysis of Amazon Reviews}
+	\resumeSubItem{Sentiment Analysis of Amazon Reviews}
 	{Comparative study of machine learning classification approaches.}
 	\resumeSubItem{Multi-scale Face Detection}
 	{Face Detection using SVM and Histogram of Oriented Gradients features.}
@@ -209,9 +220,9 @@
 \section{Programming Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages}{: Python, JavaScript, C/C++, SQL}
+      \textbf{Languages}{: Python, JavaScript, C/C++, C\#, SQL}
       \hfill
-      \textbf{Technologies}{: Unix, Docker, Tensorflow, React, ExpressJs}
+      \textbf{Technologies}{: Tensorflow, PyTorch, SLURM, Docker}
     }
   \resumeSubHeadingListEnd
 
